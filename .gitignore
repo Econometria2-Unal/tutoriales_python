@@ -1,0 +1,6 @@
+# Media and Word documents
+*.mp4
+*.docx
+
+# Local course folder
+/Cursos para aprender python/
