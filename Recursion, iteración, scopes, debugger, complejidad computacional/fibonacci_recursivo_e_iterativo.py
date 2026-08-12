@@ -103,7 +103,8 @@ def fibonacci_iterativo(n):
     # "a" guarda el valor actual y "b" guarda el siguiente valor.
     for i in range(n):    # i itera sobre todos los valores de range(n)
         # Condición de actualización. El "a" previo lo sistituimos por "b" y el 
-        # "b" previo lo sistituimos por "a + b"
+        # "b" previo lo sistituimos por "a + b", siguiendo la misma lógica,
+        #  que la sucesión de Fibonacci.
         a, b = b, a + b   
 
     # Al terminar el ciclo, "a" contiene el número de Fibonacci en la posición n.
